@@ -1,0 +1,49 @@
+.form {
+  padding: 1em;
+  background-color: rgb(207, 205, 205);
+  width: 50%;
+  margin: 1em auto;
+  border-radius: 5px;
+  gap: 0.2em;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
+  margin-bottom: 1em;
+}
+
+.input {
+  display: flex;
+  gap: 0.2em;
+  justify-content: center;
+}
+
+.actions button {
+  margin: 0.2em;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 0.2em 1em;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.actions button:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+.input input {
+  width: 30%;
+}
+.vs {
+  font-family: fantasy;
+  font-size: 2.3rem;
+}
+
+@media (max-width: 699px) {
+  .form {
+    width: 100%;
+  }
+}
